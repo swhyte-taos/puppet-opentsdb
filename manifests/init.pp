@@ -247,7 +247,6 @@ class opentsdb (
   $install_prerequisites  = params_lookup( 'install_prerequisites' ),
   $install_postcommand = params_lookup( 'install_postcommand' ),
   $create_user         = params_lookup( 'create_user' ),
-  $package               = params_lookup( 'package' ),
   $package_source        = params_lookup( 'package_source' ),
   $package_provider      = params_lookup( 'package_provider' ),
   $package_path          = params_lookup( 'package_path' ),
